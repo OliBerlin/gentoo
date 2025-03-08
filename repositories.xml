@@ -2,7 +2,7 @@
 <!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
-    <name>oli</name>
+    <name>Oli's playground</name>
     <description>Oli's playgroundy</description>
     <homepage>https://github.com/OliBerlin/gentoo</homepage>
     <owner type="person">
