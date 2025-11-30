@@ -1,4 +1,12 @@
 jobs:
+  on:
+    push:
+      branches: [ "main" ]
+      paths:
+        - 'repository/**'
+    pull_request:
+      branches: [ "main" ]
+    workflow_dispatch:
   sync:
     name: Sync repository folder
     runs-on: ubuntu-latest
