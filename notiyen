@@ -1,0 +1,13 @@
+/var/db/repos/gentoo/profiles/arch/amd64/use.mask:
+diese drei hatten ein "-" davor
+
+
+# Paul Zander <negril.nx+gentoo@gmail.com> (2023-12-10)
+# cuDNN works here
+cudnn
+
+# David Seifert <soap@gentoo.org> (2022-03-13)
+# Cuda/NVENC works here
+cuda
+nvenc
+
