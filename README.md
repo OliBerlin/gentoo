@@ -1,5 +1,11 @@
-All my stuff around gentoo...
-Each topic different folder, for more info, look in every folder
+All my stuff around Gentoo...
 
-# repository
-Hier liegt mein kleines, personliches repositorz. es basiert ausschlie-lich auf meinen wunschen, anforderunen etc
+Each topic lives in its own folder — for details, browse the directories.
+
+# Repository
+
+This is my small, personal repository. It reflects my own preferences, requirements, and experiments. It is intended for development and testing and is not an official or production-ready Gentoo resource. Use it at your own risk.
+
+If you'd like to contribute or ask questions, open an issue or create a pull request. Please test changes locally before submitting.
+
+Contact: OliBerlin (GitHub: @OliBerlin)
