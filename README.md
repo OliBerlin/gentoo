@@ -1,16 +1,5 @@
 All my stuff around gentoo...
+Each topic different folder, for more info, look in every folder
 
 # repository
-## eselect repository
-### eselect-repository installieren (falls noch nicht vorhanden)
-   ```bash
-   sudo emerge --ask app-eselect/eselect-repository
-   ```
-### Repository hinzufügen
-   ```bash
-   sudo eselect repository add gentoo-repo git https://github.com/OliBerlin/gentoo-repo.git
-   sudo emerge --sync gentoo-repo
-
-   ```
-
-Hinweis: Die genauen Befehle hängen von deiner eselect-repository-Version ab; siehe `eselect repository --help` für Details.
+Hier liegt mein kleines, personliches repositorz. es basiert ausschlie-lich auf meinen wunschen, anforderunen etc
