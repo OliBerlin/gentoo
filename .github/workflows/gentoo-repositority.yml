@@ -1,19 +1,7 @@
-name: CI
-
-on:
-  push:
-    branches: [ "main" ]
-    paths:
-      - 'repository/**'
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
-
 jobs:
   sync:
     name: Sync repository folder
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout source repo
         uses: actions/checkout@v3
@@ -44,3 +32,10 @@ jobs:
 
   build:
     name: Build and echo
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run build
+        run: echo "Building project..."
