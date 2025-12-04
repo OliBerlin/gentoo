@@ -34,6 +34,8 @@ RDEPEND="${DEPEND}"
 
 src_prepare() {
     default
+    # Patch: rustup-Aufruf entfernen
+    sed -i '/rustup target add/d' build_cli.sh || die
 }
 
 src_compile() {
